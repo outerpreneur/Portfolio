@@ -116,8 +116,8 @@ h3 {
 }
 
 .box {
-  width: 150px;
-  padding: 10px;
+  width: 170px;
+  padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -137,6 +137,59 @@ h3 {
 
 .portfolio-section {
   background-color: dodgerblue;
+}
+
+.portfolio-container {
+  margin: 0 auto;
+}
+
+.portfolio-intro {
+  color: white;
+  text-align: center;
+}
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+  gap: 30px;
+}
+
+.portfolio-box {
+  width: 300px;
+  height: 300px;
+  background-image: url(./images/alek-hobbie.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.portfolio-box h4 {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  height: 25px;
+}
+
+.contact-container {
+  margin: auto auto;
+  text-align: center;
+}
+
+.contact-text p {
+  font-size: 1.7rem;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-row img {
+  width: 100px;
+  height: 100px;
 }
 
 /* RESET */
