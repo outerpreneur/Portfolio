@@ -1,9 +1,16 @@
-nav {
-  height: 85px;
+header {
+  height: 100px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  position: fixed;
   display: flex;
   align-items: center;
-  position: fixed;
-  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
   font-family: Roboto;
 }
 
@@ -67,6 +74,7 @@ button {
   width: 500px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-photo {
@@ -74,6 +82,7 @@ button {
   width: 500px;
   border-radius: 20%;
   object-fit: cover;
+  box-shadow: 0 2px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about {
@@ -109,16 +118,25 @@ h3 {
 .box {
   width: 150px;
   padding: 10px;
-  border: 1px solid black;
   text-align: center;
   display: flex;
   flex-direction: column;
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .skill-icon {
   width: 60px;
   height: 60px;
   margin: 0 auto;
+}
+
+.view-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-section {
+  background-color: dodgerblue;
 }
 
 /* RESET */
