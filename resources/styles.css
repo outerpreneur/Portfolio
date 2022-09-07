@@ -3,7 +3,6 @@ nav {
   display: flex;
   align-items: center;
   position: fixed;
-  background-color: cyan;
   width: 100%;
   font-family: Roboto;
 }
@@ -20,6 +19,50 @@ ul {
   width: 70px;
   height: 70px;
   margin-left: 15px;
+}
+
+.about {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation h2 {
+  font-size: 6rem;
+}
+
+.presentation p {
+  font-size: 1.7rem;
+}
+
+button {
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 25px;
+  font-size: 12rem;
+  font-weight: 700;
+}
+
+.portrait-photo {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* RESET */
