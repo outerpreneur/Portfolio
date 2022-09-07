@@ -21,7 +21,7 @@ ul {
   margin-left: 15px;
 }
 
-.about {
+section {
   display: flex;
   height: 100vh;
   align-items: center;
@@ -39,7 +39,7 @@ ul {
   align-items: center;
 }
 
-.presentation h2 {
+h2 {
   font-size: 6rem;
 }
 
@@ -63,6 +63,27 @@ button {
   width: 500px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.about-photo {
+  height: 500px;
+  width: 500px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.about-description {
+  margin: auto 0;
+}
+
+h3 {
+  font-size: 2rem;
 }
 
 /* RESET */
