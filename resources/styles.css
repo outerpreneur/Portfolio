@@ -47,6 +47,10 @@ h2 {
   font-size: 1.7rem;
 }
 
+.presentation span {
+  font-size: 4rem;
+}
+
 button {
   background-color: dodgerblue;
   color: white;
@@ -84,6 +88,37 @@ button {
 
 h3 {
   font-size: 2rem;
+}
+
+.skills-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skills-intro {
+  text-align: center;
+}
+
+.skills-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.box {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
 }
 
 /* RESET */
