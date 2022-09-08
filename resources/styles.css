@@ -34,6 +34,11 @@ section {
   align-items: center;
 }
 
+.presentation-section {
+  background-image: url(./images/bg-pattern-top-desktop1.jpg);
+  background-size: cover;
+}
+
 .container {
   height: 500px;
   width: 80%;
