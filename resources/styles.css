@@ -27,6 +27,11 @@ nav {
   font-family: "Space grotesk";
 }
 
+nav a {
+  text-decoration: none;
+  color: #414584;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -87,13 +92,13 @@ p {
 }
 
 button {
-  background-color: #414584;
-  color: white;
-  border-radius: 25px;
+  background-color: #c5fc80;
+  color: black;
+  border-radius: 15px;
   border: none;
-  padding: 10px 25px;
+  padding: 10px 35px;
   margin-top: 25px;
-  font-size: 26px;
+  font-size: 46px;
   font-weight: 700;
 }
 
