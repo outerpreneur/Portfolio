@@ -1,3 +1,12 @@
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 header {
   height: 100px;
   width: 100%;
@@ -5,6 +14,7 @@ header {
   display: flex;
   align-items: center;
   transition: background-color 1s ease, box-shadow 1s ease;
+  z-index: 20;
 }
 
 header.scrolled {
@@ -14,7 +24,7 @@ header.scrolled {
 nav {
   display: flex;
   align-items: center;
-  font-family: Roboto;
+  font-family: "Space grotesk";
 }
 
 ul {
@@ -26,8 +36,8 @@ ul {
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   margin-left: 35px;
 }
 
@@ -38,7 +48,7 @@ section {
 }
 
 .presentation-section {
-  background-image: url(./images/bg-pattern-top-desktop1.jpg);
+  background-image: url(./images/cool-background.svg);
   background-size: cover;
 }
 
@@ -56,6 +66,16 @@ section {
 
 h2 {
   font-size: 6rem;
+  font-family: monospace;
+}
+
+p,
+h3 {
+  font-family: monospace;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 .presentation p {
@@ -67,13 +87,13 @@ h2 {
 }
 
 button {
-  background-color: dodgerblue;
+  background-color: #414584;
   color: white;
   border-radius: 25px;
   border: none;
   padding: 10px 25px;
   margin-top: 25px;
-  font-size: 12rem;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -99,12 +119,25 @@ button {
   gap: 120px;
 }
 
+.about-section {
+  background-image: url(./images/magicpattern-blob-1662736505079.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .about-description {
   margin: auto 0;
 }
 
 h3 {
   font-size: 2rem;
+}
+
+.skills-section {
+  background-image: url(./images/magicpattern-blob-1662736793961.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .skills-wrapper {
@@ -124,7 +157,7 @@ h3 {
 }
 
 .box {
-  width: 170px;
+  width: 220px;
   padding: 20px;
   text-align: center;
   display: flex;
@@ -144,7 +177,8 @@ h3 {
 }
 
 .portfolio-section {
-  background-color: dodgerblue;
+  background: rgb(213, 241, 254);
+  background: radial-gradient(circle, rgba(213, 241, 254, 1) 0%, rgba(154, 173, 206, 1) 16%, rgba(65, 69, 132, 1) 100%);
 }
 
 .portfolio-container {
