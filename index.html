@@ -51,21 +51,38 @@
             <div class="inner-wrapper">
                 <div class="about">
                     <img src="./resources/images/alek-hobbie.jpg" class="about-photo">
-                    <div class="about-description">
+                    <div class="about-descriptions">
                         <h2>About me</h2>
                         <nav class="filters-bar">
-                            <ul class="filters">
-                                <li>Bio</li>
-                                <li>Education</li>
-                                <li>experience</li>
+                            <ul class="filters-list">
+                                <li><a href="bio.html" data-filter=".bio">Bio</a></li>
+                                <li><a href="education.html" data-filter=".education">Education</a></li>
+                                <li><a href="experience.html" data-filter=".experience">experience</a></li>
                             </ul>
                         </nav>
-                        <h3>Bio</h3>
-                        <p>I live in Geneva, Switzerland and enjoy the lifestyle and nature around this area. I like to
+                        <p class="description bio">I live in Geneva, Switzerland and enjoy the lifestyle and nature
+                            around this
+                            area. I like to
                             keep
-                            fit, care for tropical
-                            fish and enjoy gardening. I'm always glued to a screen at other times, coding, or learning
+                            fit, water sports and photography. I'm always glued to a screen at other times, coding, or
+                            learning
                             something new.</p>
+                        <p class="description education">I graduated with a Masters degree in Tourism Management &
+                            Marketing at the University of
+                            Bournemout in 2010.
+                            Before pivoting
+                            into web development, I
+                            studied IT certifications such as the A+ and CCNA. Since around early 2018 I started
+                            self-teaching web development,
+                            primarily on Codecademy, Superhi where I have numerous certifications.</p>
+                        <p class="description experience">Prior to going freelance, I worked as a Junior Frontend
+                            Developer for well
+                            respected fashion
+                            label Lyle & Scott, looking
+                            after homepage updates and marketing email design. More recently I have worked freelance for
+                            numerous clients in and
+                            around my local area, primarily using Shopify to design business and eCommerce projects.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -99,7 +116,7 @@
                     <h4>Shopify/ Liquid</h4>
                     <img class="skill-icon" src="./resources/images/shopifylogo.jpeg">
                     <p>I’ve worked freelance for numerous clients
-                        building WordPress and WooCommerce sites.</p>
+                        building Shopify Stores.</p>
                 </div>
             </div>
             <button class="primary-button center"><a
@@ -118,14 +135,16 @@
                 <div class="portfolio-box">
                     <div class="overlay">
                         <h4>Mariloushop</h4>
-                        <button>View more</button>
+                        <a href="https://mariloushop.com/" target="_blank"><button class="primary-button">View
+                                more</button></a>
                     </div>
                     <img class="project-image" src="./resources/images/marilou.jpeg">
                 </div>
                 <div class="portfolio-box">
                     <div class="overlay">
                         <h4>Centroartesano</h4>
-                        <button class="primary-button">View more</button>
+                        <a href="https://centroartesano.es/" target="_blank"><button class="primary-button">View
+                                more</button></a>
                     </div>
                     <img class="project-image" src="./resources/images/centroartesano.webp">
                 </div>
@@ -203,3 +222,6 @@
 
 <script src="./resources/header.js"></script>
 <script src="./resources/animation.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="./resources/main.js"></script>
