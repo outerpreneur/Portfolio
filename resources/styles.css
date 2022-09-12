@@ -388,14 +388,30 @@ footer {
 
 @media screen and (max-width: 600px) {
   header {
-    height: 200px;
+    height: 300px;
+    position: static;
+    border-bottom: 1px black solid;
+    background-color: #414584;
+  }
+
+  header nav {
+    flex-direction: column;
+    margin: 0 auto;
   }
 
   header ul {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
+    text-align: center;
   }
+
+  header ul li a {
+    font-size: 1.4rem;
+    color: white;
+    letter-spacing: 0.8rem;
+  }
+
   .container {
     width: 100%;
     margin: 0 auto;
@@ -414,7 +430,7 @@ footer {
   }
 
   .about-section {
-    height: 1400px;
+    height: 2500px;
   }
 
   .skills-section {
