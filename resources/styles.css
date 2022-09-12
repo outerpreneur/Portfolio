@@ -216,8 +216,8 @@ h3 {
 }
 
 .portfolio-section {
-  background: rgb(213, 241, 254);
-  background: radial-gradient(circle, rgba(213, 241, 254, 1) 0%, rgba(154, 173, 206, 1) 16%, rgba(65, 69, 132, 1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .portfolio-container {
@@ -307,6 +307,11 @@ footer {
 .contact-row img {
   width: 100px;
   height: 100px;
+  transition: box-shadow 0.5s ease;
+}
+
+.contact-row img:hover {
+  box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* RESET */
